@@ -1,0 +1,45 @@
+# ========================================
+# PathSnap Team 11 — Pinned Dependencies
+# Python 3.11.9
+# ========================================
+
+# --- Core data science ---
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+
+# --- Gradient boosting ---
+xgboost==2.1.1
+lightgbm==4.5.0
+
+# --- Bayesian optimisation ---
+optuna==3.6.1
+
+# --- Visualisation ---
+matplotlib==3.9.2
+seaborn==0.13.2
+folium==0.17.0
+
+# --- API ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.1
+
+# --- HTTP client (UI → API) ---
+requests==2.32.3
+httpx==0.27.2
+
+# --- UI (Streamlit-based) ---
+streamlit==1.38.0
+streamlit-folium==0.22.0
+
+# --- Geospatial ---
+pyproj==3.6.1
+haversine==2.8.1
+
+# --- Serialization ---
+joblib==1.4.2
+
+# --- Utilities ---
+tqdm==4.66.5

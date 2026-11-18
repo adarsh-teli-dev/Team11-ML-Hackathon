@@ -120,14 +120,14 @@ Predicted Route (sequence of arc IDs)
 
 ---
 
-## 🏷️ Team Roles
+## 👥 Contributors & Team 11 Roster
 
-| Role | Member | Responsibility |
-|------|--------|---------------|
-| A | Arti | Data, Features & Maps |
-| B | Chiranth | Experiments & Bayesian Tuning (Models 1–3) |
-| C | Akhilesh | Models 4–5 & HMM/Viterbi |
-| D | Adarsh | API, UI, Deployment & Submission |
+| Member | Role | Branch | Directories Owned | Core Responsibilities |
+|---|---|---|---|---|
+| **Arti** | Role A | `role-a` | `common/`, `data_processing/`, `features/`, `visualisation/` | Data loader, candidate generation, feature engineering, Folium maps |
+| **Chiranth** | Role B | `role-b` | `models/`, `optimisation/`, `results/` | Models 1–3, group-aware CV harness, Bayesian hyperparameter tuning (Optuna) |
+| **Akhilesh** | Role C | `role-c` | `models/`, `decoder/`, `artifacts/` | Models 4–5, HMM formulation, Viterbi route reconstruction decoder |
+| **Adarsh Teli** | Role D | `role-d` | `api/`, `ui/`, `report/`, repo root | FastAPI inference engine, Streamlit UI, live logging, final PDF report |
 
 ---
 
